@@ -19,7 +19,7 @@ services:
         volumes:
             - wordpress-data:/var/lib/mysql
             # Pour lancer un dump automatiquement au montage du conteneur
-            - ./DumpSQL/data.sql:/docker-entrypoint-initdb.d/data.sql
+#            - ./DumpSQL/data.sql:/docker-entrypoint-initdb.d/data.sql
 
 
 
